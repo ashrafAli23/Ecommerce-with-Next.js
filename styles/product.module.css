@@ -1,0 +1,8 @@
+.main {
+    padding: 50px 0px;
+}
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

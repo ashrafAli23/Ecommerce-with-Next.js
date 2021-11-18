@@ -1,0 +1,27 @@
+.mainnav {
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.mainnav .container {
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .logo {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.container ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+}
+.container ul li a {
+    font-size: 1rem;
+    cursor: pointer;
+}
